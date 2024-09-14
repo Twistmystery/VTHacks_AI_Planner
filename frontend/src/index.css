@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -14,5 +15,8 @@ code {
 
 .azure-logo{
   width: 100px;
-  
+  border-style: none;
+  border-radius: 70px;
+  background-color: white;
+  padding: 10px;
 }

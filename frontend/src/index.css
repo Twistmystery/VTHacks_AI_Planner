@@ -20,3 +20,34 @@ code {
   background-color: white;
   padding: 10px;
 }
+
+.input-text{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 18px;
+  border: none;
+  
+  width: 400px;
+  background-color: rgb(228, 228, 228);
+  
+}
+
+::placeholder{
+  font-weight: bold;
+  color: black;
+}
+
+.input-container{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
+
+.click-button{
+  padding: 18px;
+  border: none;
+  
+  
+}

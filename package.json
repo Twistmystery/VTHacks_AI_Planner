@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "primereact": "^10.8.2"
+    "primereact": "^10.8.2",
+    "react-router-dom": "^6.26.2"
   }
 }

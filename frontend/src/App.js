@@ -17,15 +17,21 @@ function App(props, state) {
 }
   return (
     <div className="App">
-      <button onClick={openSidenav}>Open</button>
-      <h1>Welcome, User, to ManAzure!</h1>
-      <Images></Images>
-      <div className='input-container'>
-        <TextInput></TextInput>  
+      <button classeName="menu-button" onClick={openSidenav}>
+        <img className="nav-icon" src='./images/menu.jpg'/>
+      </button>
+
+      <div className='container'>
+        <h1>Welcome, User, to ManAzure!</h1>
+        <Images></Images>
+        <div className='input-container'>
+          <TextInput></TextInput>  
+        </div>
+        
+        <div>
+        <NavBar width={wid} closeNav={closeSidenav} />
       </div>
-      
-      <div>
-      <NavBar width={wid} closeNav={closeSidenav} /> {/* Include the NavBar at the top */}
+       {/* Include the NavBar at the top */}
       {/* <div id="home">
         <h2>Home Section</h2>
         <p>Welcome to the home section of the website!</p>

@@ -4,6 +4,7 @@ import TextInput from './components/TextInput';
 import React from 'react';
 import NavBar from './components/nav-bar.js';
 import {useState} from 'react'
+import ChatApp from './components/ChatApp.js';
 
 function App(props, state) {
   const [wid, setWid] = useState('0%');
@@ -19,7 +20,7 @@ function App(props, state) {
       <h1>Welcome, User, to ManAzure!</h1>
       <Images></Images>
       <div className='input-container'>
-        <TextInput></TextInput>  
+        <ChatApp /> 
       </div>
       
       <div>

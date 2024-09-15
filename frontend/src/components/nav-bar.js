@@ -8,7 +8,6 @@ const NavBar = (props) => {
       <button class="close-button" onClick={props.closeNav}> 
         X
       </button>
-      <button class="closeButton" onClick={props.closeNav}>X</button>
       <ul>
         <li><a href="#home">See Schedule</a></li>
         <li><a href="#about">Add New Class</a></li>

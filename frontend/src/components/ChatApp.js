@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './ChatApp.css'; // Optional: For styling
 
 const ChatApp = () => {
   const [input, setInput] = useState(''); // The current input value
@@ -23,8 +22,13 @@ const ChatApp = () => {
       {isExpanded && (
         <div className="chat-screen">
           {messages.map((msg, index) => (
+            <div>
+            <span className="message-label">YOU</span>
             <div key={index} className="chat-message">
-              {msg}
+            <div className="message-text"> 
+                {msg}
+            </div>
+            </div>
             </div>
           ))}
         </div>

@@ -4,6 +4,7 @@ import TextInput from './components/TextInput';
 import React from 'react';
 import NavBar from './components/nav-bar.js';
 import {useState} from 'react'
+import ChatApp from './components/ChatApp.js';
 
 function App(props, state) {
   const [wid, setWid] = useState('0%');
@@ -16,22 +17,15 @@ function App(props, state) {
 }
   return (
     <div className="App">
-      <button className= "menu-button" onClick={openSidenav}>
-        <img className='nav-bar-icon' src='./images/menu.jpg'/>
-      </button>
-
-      <div className='container'>
-        <h1>Welcome, User, to ManAzure!</h1>
-        <Images></Images>
-        <div className='input-container'>
-          <TextInput></TextInput>  
-        </div>
-        
-        <div>
-        <NavBar width={wid} closeNav={closeSidenav} /> 
+      <button onClick={openSidenav}>Open</button>
+      <h1>Welcome, User, to ManAzure!</h1>
+      <Images></Images>
+      <div className='input-container'>
+        <TextInput></TextInput>  
       </div>
       
-      {/* Include the NavBar at the top */}
+      <div>
+      <NavBar width={wid} closeNav={closeSidenav} /> {/* Include the NavBar at the top */}
       {/* <div id="home">
         <h2>Home Section</h2>
         <p>Welcome to the home section of the website!</p>

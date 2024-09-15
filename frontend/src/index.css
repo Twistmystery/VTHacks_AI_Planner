@@ -88,28 +88,3 @@ code {
   border-radius: 4px;
 }
 
-.nav-bar-icon{
-  width: 37px;
-  
-}
-
-.menu-button{
-  position:absolute;
-  left: 20px;
-  top: 20px;
-  border: none;
-  
-}
-
-.close-button{
-  padding-left: 15px;
-  padding-right: 15px;
-  border-style: solid;
-  border-color: rgb(59, 89, 209);
-  border-radius: 5px;
-  background-color: white;
-  color: black;
-} 
-.container{
-  text-align: center;
-}
